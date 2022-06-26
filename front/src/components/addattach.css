@@ -1,0 +1,60 @@
+ul {
+    list-style-type: none;
+}
+
+.menu > li {
+    float: left;
+}
+.menu button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.menu button:hover,
+.menu button:focus {
+    outline: 0;
+    text-decoration: underline;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    padding: 10px;
+}
+.menu button:focus + .submenu,
+.submenu:hover {
+    display: block;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.show_file {
+   border: 1px solid black;
+   text-align: left;
+   padding: 20px;
+   margin-top: 50px;
+   width: auto;
+}
+
+.activity_btn {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+.activity_btn > Button {
+    margin: 20px;
+}
+
+.connect_drive {
+    width: 200px;
+}
+
+
